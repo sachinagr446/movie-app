@@ -70,8 +70,8 @@ function App() {
     <MovieProvider value={{Loading,Error,List,Name,setName}}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route exact path="/movie/:id" element={<Details/>}/>
+          <Route path="/movie-app/" element={<Home/>}/>
+          <Route exact path="/movie-app/movie/:id" element={<Details/>}/>
         </Routes>
       </BrowserRouter>
       </MovieProvider>
